@@ -13,7 +13,7 @@ const UserItem = (props) => {
             <li>
                 <img className="circle" alt="" src={props.user.photo}/>
                 <p>{props.user.name}</p>
-                <p><i className="material-icons">email</i> email: {props.user.getEmail()}</p>
+                <p><i className="material-icons">email</i>email: {props.user.getEmail()}</p>
                 <p><i className="material-icons">cake</i>{props.user.getDate()}</p>
             </li>
             </ul>

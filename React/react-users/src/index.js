@@ -4,5 +4,12 @@ import './index.css';
 import App from './app/App.js';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import { HashRouter } from "react-router-dom"
+
+ReactDOM.render(
+    <HashRouter>
+        <App />
+    </HashRouter>,
+    document.getElementById('root'));
+    
 registerServiceWorker();

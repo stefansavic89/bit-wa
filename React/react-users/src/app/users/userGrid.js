@@ -1,12 +1,11 @@
 import React from 'react';
-
-import UserItem2 from './userCard.js';
+import UserCard from './userCard.js';
 
 
 const UserGrid = (props) => {
     return (
-            <div className="row">
-            {props.items.map((item, i)=> <UserItem2 key={i} user={item}/>)}   
+        <div className="row">
+            {props.items.map((item, i) => <UserCard key={i} user={item}/>)}   
         </div> 
     )
 }
