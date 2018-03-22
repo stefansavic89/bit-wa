@@ -3,7 +3,7 @@ import './userInfo.css';
 
 const UserItem = (props) => {
     const bgStyle = {
-        backgroundColor: props.user.gender === "female" ? '#ffebee' : '#fff'
+        backgroundColor: props.user.gender === "female" ? '#ffebee' : '#89C4F4'
     }
     
     return (

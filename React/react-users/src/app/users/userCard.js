@@ -11,8 +11,8 @@ const UserItem2 = (props) => {
               <span className="card-title">{props.user.name}</span>
             </div>
             <div className="card-content">
-              <p>{props.user.getEmail()}</p>
-              <p>Birth date:  {props.user.getDate()}</p>
+              <p>{props.user.email}</p>
+              <p>Birth date:  {props.user.date}</p>
             </div>
             
           </div>
